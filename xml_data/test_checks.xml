@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checks date="10/24/2024">
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord qty="2">stuffed peppers</ord>
+        <ord>bean wrap</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>2</table>
+        <ord>stuffed peppers</ord>
+        <ord qty="4">bean wrap</ord>
+    </chk>
+</checks>

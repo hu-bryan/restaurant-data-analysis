@@ -2,6 +2,7 @@ import pymysql.cursors
 import argparse
 import xml.etree.ElementTree as ET
 from datetime import datetime
+import traceback
 
 
 def insert_menu(conn, xml_path):
@@ -31,7 +32,7 @@ def insert_menu(conn, xml_path):
         for item in root.findall('item'):
             # Retrieve item details from xml
             name = item.find('name').text.lower() #UNIQUE
-            catagory = item.find('catagory').text.upper() 
+            category = item.find('category').text.upper() 
             is_depleted = item.find("depleted") is not None
 
             # Check for item record by name
@@ -43,16 +44,17 @@ def insert_menu(conn, xml_path):
             '''
             cur.execute(item_id_sql, (name,))
 
-            if not cur.fetchone():
+            item_id_query = cur.fetchone()
+            if not item_id_query:
                 # Insert item record if not found
                 item_insert_sql = '''
-                    INSERT INTO items (item_name, item_catagory, item_price) 
+                    INSERT INTO items (item_name, item_category, item_price) 
                     VALUES (%s, %s, %s) 
                 '''
-                cur.execute(item_insert_sql, (name, catagory, 12.00))
+                cur.execute(item_insert_sql, (name, category, 12.00))
                 item_id = cur.lastrowid
             else: 
-                item_id  = cur.fetchone()[0]
+                item_id  =  item_id_query[0]
 
             # Link menu to item 
             menu_item_insert_sql = '''
@@ -119,10 +121,11 @@ def insert_checks(conn, xml_path):
                 '''
                 cur.execute(item_id_sql, item_name)
 
-                if cur.fetchone() is not None:
-                    item_id = cur.fetchone()[0] 
+                item_id_query = cur.fetchone()
+                if item_id_query is not None:
+                    item_id = item_id_query[0] 
                 else: 
-                    # Assume item catagory REQUEST; insert by default values
+                    # Assume item category REQUEST; insert by default values
                     cur.execute("INSERT INTO items (item_name) VALUES (%s)", (item_name,))
                     item_id = cur.lastrowid
                 
@@ -154,6 +157,7 @@ def main():
         insert_checks(conn, args.checks_xml)
     except Exception as e:
         print(f"Error: {e}")
+        print(traceback.format_exc())
     finally:
         conn.close()
 

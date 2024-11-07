@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checks date="10/13/2024">
+    <chk>
+        <server>greg</server>
+        <table>5</table>
+        <ord qty="2">bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>4</table>
+        <ord>bbq seitan sandwich</ord>
+        <ord>no entree</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>3</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>lemon pancakes with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>12</table>
+        <ord>bbq seitan sandwich</ord>
+        <ord>chickpea mock egg salad sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>11</table>
+        <ord qty="2">lemon pancakes with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+        <ord>no side</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>10</table>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>11</table>
+        <ord>scrambled actual eggs</ord>
+        <ord>lemon pancakes with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord qty="2">tex mex stuffed peppers</ord>
+        <ord>almond french toast with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>8</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>7</table>
+        <ord qty="2">bbq seitan sandwich</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>7</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>2</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>almond french toast with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>12</table>
+        <ord>bbq seitan sandwich</ord>
+        <ord qty="2">scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>13</table>
+        <ord qty="2">bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>10</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>6</table>
+        <ord qty="2">almond french toast with blueberry topping</ord>
+        <ord qty="2"> scrambled actual eggs</ord>
+        <ord>bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>3</table>
+        <ord>scrambled actual eggs</ord>
+        <ord qty="2">lemon pancakes with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>13</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>12</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>5</table>
+        <ord qty="3">almond french toast with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>10</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>3</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>lemon pancakes with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>4</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>8</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord qty="2">bbq seitan sandwich</ord>
+        <ord>no entree</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>1</table>
+        <ord qty="2">lemon pancakes with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+        <ord>tex mex stuffed peppers</ord>
+        <ord>scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>7</table>
+        <ord qty="2">bbq seitan sandwich</ord>
+        <ord qty="2">lemon pancakes with blueberry topping</ord>
+        <ord>scrambled actual eggs</ord>
+        <ord>side eggs</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>8</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>lemon pancakes with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>3</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord qty="2">bbq seitan sandwich</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>13</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>scrambled actual eggs</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>11</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord qty="4">bbq seitan sandwich</ord>
+        <ord>no bun</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>scrambled actual eggs</ord>
+        <ord>no side</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>12</table>
+        <ord qty="3">lemon pancakes with blueberry topping</ord>
+        <ord qty="2">tex mex stuffed peppers</ord>
+        <ord>no entree</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>3</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>almond french toast with blueberry topping</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>7</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>5</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>bbq seitan sandwich</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>8</table>
+        <ord>almond french toast with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>9</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>1</table>
+        <ord>chickpea mock egg salad sandwich</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>4</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+    <chk>
+        <server>sonja</server>
+        <table>10</table>
+        <ord qty="2">chickpea mock egg salad sandwich</ord>
+    </chk>
+    <chk>
+        <server>greg</server>
+        <table>2</table>
+        <ord>lemon pancakes with blueberry topping</ord>
+        <ord>scrambled actual eggs</ord>
+        <ord>tex mex stuffed peppers</ord>
+    </chk>
+</checks>

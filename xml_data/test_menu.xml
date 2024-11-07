@@ -3,10 +3,10 @@
     <item>
         <depleted/>
         <name>stuffed peppers</name>
-        <catagory>entree</catagory>
+        <category>entree</category>
     </item>
     <item>
         <name>bean wrap</name>
-        <catagory>sandwich</catagory>
+        <category>sandwich</category>
     </item>
 </menu>

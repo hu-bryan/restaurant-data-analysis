@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu date="10/13/2024">
+    <item>
+        <name>lemon pancakes with blueberry topping</name>
+        <category>breakfast</category>
+    </item>
+    <item>
+        <name>almond french toast with blueberry topping</name>
+        <category>breakfast</category>
+    </item>
+    <item>
+        <name>scrambled actual eggs</name>
+        <category>breakfast</category>
+    </item>
+    <item>
+        <name>tex mex stuffed peppers</name>
+        <category>entree</category>
+    </item>
+    <item>
+        <name>bbq seitan sandwich</name>
+        <category>sandwich</category>
+    </item>
+    <item>
+        <name>chickpea mock egg salad sandwich</name>
+        <category>sandwich</category>
+    </item>
+</menu>
